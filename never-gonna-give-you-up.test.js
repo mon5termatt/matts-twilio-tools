@@ -13,7 +13,7 @@ describe('', () => {
     const callback = (_err, result) => {
       expect(result).toBeInstanceOf(Twilio.twiml.VoiceResponse);
       expect(result.toString()).toMatch(
-        '<Response><Play>https://demo.twilio.com/docs/classic.mp3</Play></Response>'
+        '<Response><Play>https://github.com/mon5termatt/matts-twilio-tools/raw/main/river.mp3</Play></Response>'
       );
       done();
     };
